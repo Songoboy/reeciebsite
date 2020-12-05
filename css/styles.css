@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #fffece;
+ }
+
+h2, h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+
+.col {
+margin: 20px;
+}
+
+h2, h3 {
+  color: #3046C5; }
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: #ff0000; }
+
+.container {
+  margin: 15px;
+  padding: 20px;
+  align: center;
+}
+
+footer {
+  background-color: #00d9ff;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif; }
+
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  background-size: cover;
+  background-image: url("/img/BG_pattern.jpg");
+  background-position: 0% 25%;
+  text-align: center;
+}
+
+.navbar {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  background-color: #02bfe0ee;
+  margin: 0;
+  padding: 10px; }
+
+#orderModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+.tech-slideshow {
+  height: 180px;
+  max-width: 2000px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: 180px;
+  width: 3000px;
+  background: url("/img/scrollingPhotos.jpg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0)
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 25s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-60.6666%);  
+  }
+}
