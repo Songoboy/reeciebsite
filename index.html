@@ -39,11 +39,8 @@
 
         <!--Order Button?
         <div class="col-md-4  col-xl-2 mt-4 text-nowrap">
-            <a class="btn btn-lg btn-info" role="button" id="orderButton">Order</a>
-        </div>
-        <div class="col">
-            <h1>"Made with Love"</h1>
-        </div> -->
+            <a class="btn btn-lg btn-info" role="button" id="orderModal">Order</a>
+        </div>-->
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container-fluid">
@@ -62,11 +59,6 @@
                     <li class="nav-item"><a class="nav-link" href="aboutus_contact.html"><i class="fa fa-home fa-lg"></i>
                              About Us & Contact</a></li>
                 </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" id="orderButton">
-                        <i class="fa fa-sign-in"></i>Order
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
@@ -108,9 +100,9 @@
                         </div>
 
                         <div class="row form-group">
-                            <label class="col-sm-6 col-form-label" for="date">Date</label>
+                            <label class="col-sm-6 col-form-label" for="time">Time</label>
                             <div class="col">
-                                <input type="time" class="form-control" id="time" name="time" placeholder="date">
+                                <input type="time" class="form-control" id="time" name="time" placeholder="0:00">
                             </div>
                         </div>
 
@@ -131,11 +123,14 @@
              <div class="col-4">
                 <img src="/img/Foodtruck.jpg" class="img-fluid">
             </div>
-            <div class="col-8">
+            <div class="col-6">
                 <h2>Food Truck</h2>
                 <h4>Weekly Sites</h4>
                 <p>Please check our Instagram and Facebook Page for our weekly foodtruck locations for the week at Instagram: reeciebs, and Facebook: Reecieb's Onolicious Local Food</p>
                 <p>Also check our social media pages for weekly special dishes throughout the week.</p>
+            </div>
+            <div class="col-md-2 col-sm-2 text-nowrap">
+                 <a class="btn btn-md btn-info" role="button" id="orderButton">Order Online</a>
             </div>
         </div>
     </div>
