@@ -27,8 +27,17 @@ h1 {
 
 footer {
   background-color: #00d9ff;
-  padding: 5px;
-  font-family: 'Roboto', sans-serif; }
+  padding: 2px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(127, 0, 231); }
+
+a {
+    color: black;
+}
+
+.button {
+    color: black;
+}
 
 .jumbotron {
   margin: 0;
